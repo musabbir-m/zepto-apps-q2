@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000;
+  height: 100vh;
+  width: 100vw;
+}
+
+div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 28px;
+  background: linear-gradient(130deg, #108be4, orange);
+  background-clip: text;
+  color: transparent;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
